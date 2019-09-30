@@ -172,9 +172,12 @@ export class ResultadoComponent implements OnInit {
         // console.log("peso concreto", res[0].pesoConcreto);
         if (this.resultados.length > 0) {
           document.getElementById('mensaje').innerHTML = "Seleccione la lista de resultados:";
+          document.getElementById('imagenAdvertencia').style.display = 'none';
         }
         else{
           document.getElementById('mensaje').innerHTML = "Actualmente no hay ningun resultado guardado!";
+          document.getElementById('imagenAdvertencia').style.display = 'block';
+          
         }
       });
   }

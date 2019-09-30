@@ -42,5 +42,19 @@
       .form-control{
         display: block;
         width: 100%;
+        font-size: smaller;
       }
+      .btn-lg, .btn, button{
+        font-size: 15px;
+      }
+      h5, h6{
+        font-size: 15px;
+       }
+
+       .jumbotron {
+        padding: 2rem 1rem;
+        margin-bottom: -3rem;
+        background-color: #e9ecef;
+        border-radius: .3rem;
+    }
     }

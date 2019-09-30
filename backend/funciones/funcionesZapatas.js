@@ -130,8 +130,8 @@ funciones.darChequeoExcentricidadEx = function (Ex,Bx) {
       }
       console.log("resultado: " + resultado);
       lista.push(resultado);
-    return lista;
     }
+    return lista;
 }
 
 funciones.darChequeoExcentricidadEy = function (Ey,By) {
@@ -149,8 +149,8 @@ funciones.darChequeoExcentricidadEy = function (Ey,By) {
       }
       console.log("resultado: " + resultado);
       lista.push(resultado);
-    return lista;
     }
+    return lista;
 }
 
 

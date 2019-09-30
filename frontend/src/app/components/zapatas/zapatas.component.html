@@ -45,14 +45,14 @@
 
                         <div class="col-12 col-md-6 col-lg-3 bg-primary">
                             <div class="form-group">
-                                <label for="cargaViva">Carga viva: (Kn)</label>
+                                <label for="cargaViva">Carga axial (Viva): (Kn/m2)</label>
                                 <input type="number" class="form-control" id="cargaViva" value="{{cargaViva}}" readonly>
                             </div>
                         </div>
 
                         <div class="col-12 col-md-6 col-lg-3 bg-primary">
                             <div class="form-group">
-                                <label for="cargaMuerta">Carga muerta: (Kn)</label>
+                                <label for="cargaMuerta">Carga axial (Muerta): (Kn/m2)</label>
                                 <input type="number" class="form-control" id="cargaMuerta" value="{{cargaMuerta}}"
                                     readonly>
                             </div>
@@ -306,13 +306,13 @@
                                 <table id="tab" class="table table-bordered">
                                     <thead class="thead-dark">
                                         <tr>
-                                            <th scope="col">Peso Suelo</th>
-                                            <th scope="col">Peso concreto</th>
-                                            <th scope="col">Area acero</th>
-                                            <th scope="col">Peso especifico concreto</th>
-                                            <th scope="col">Carga viva</th>
-                                            <th scope="col">Carga muerta</th>
-                                            <th scope="col">Carga admisible suelo</th>
+                                            <th scope="col">Peso Suelo (kg/m3)</th>
+                                            <th scope="col">Peso concreto (kg/m2)</th>
+                                            <th scope="col">Area acero (Cm2)</th>
+                                            <th scope="col">Peso especifico concreto (Kg)</th>
+                                            <th scope="col">Carga axial (Viva) (Kn/m2)</th>
+                                            <th scope="col">Carga axial (Muerta) (Kn/m2)</th>
+                                            <th scope="col">Carga admisible suelo (kg/m2)</th>
                                             <th scope="col">Factor mayoracion</th>
                                         </tr>
                                     </thead>
@@ -342,14 +342,14 @@
                                 <table id="tab2" class="table table-bordered">
                                     <thead class="thead-dark">
                                         <tr>
-                                            <th scope="col">Peso zapata</th>
-                                            <th scope="col">Peso pedestal</th>
-                                            <th scope="col">Peso suelo</th>
-                                            <th scope="col">Carga vertical</th>
-                                            <th scope="col">Momento actuante MX</th>
-                                            <th scope="col">Momento actuante MY</th>
-                                            <th scope="col">Propiedad geografica A</th>
-                                            <th scope="col">Propiedad geografica IX</th>
+                                            <th scope="col">Peso zapata (Kg)</th>
+                                            <th scope="col">Peso pedestal (Kg)</th>
+                                            <th scope="col">Peso suelo (Kg)</th>
+                                            <th scope="col">Carga vertical (Kg)</th>
+                                            <th scope="col">Momento actuante MX (Kg.m)</th>
+                                            <th scope="col">Momento actuante MY (Kg.m)</th>
+                                            <th scope="col">Propiedad geografica A (m2)</th>
+                                            <th scope="col">Propiedad geografica LX (m3)</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -376,13 +376,13 @@
                                 <table id="tab3" class="table table-bordered">
                                     <thead class="thead-dark">
                                         <tr>
-                                            <th scope="col">Propiedad geografica IY</th>
-                                            <th scope="col">Esfuerzo actuante QMax</th>
-                                            <th scope="col">Esfuerzo actuante QMin</th>
-                                            <th scope="col">Diseño flexion Mdx</th>
-                                            <th scope="col">Diseño flexion Mdy</th>
-                                            <th scope="col">Area acero AX</th>
-                                            <th scope="col">Area acero AY</th>
+                                            <th scope="col">Propiedad geografica LY (m3)</th>
+                                            <th scope="col">Esfuerzo actuante QMax (Kg/m2)</th>
+                                            <th scope="col">Esfuerzo actuante QMin (Kg/m2)</th>
+                                            <th scope="col">Diseño flexion Mdx (Kg.m)</th>
+                                            <th scope="col">Diseño flexion Mdy (Kg.m)</th>
+                                            <th scope="col">Area acero AX (Cm2)</th>
+                                            <th scope="col">Area acero AY (Cm2)</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -407,13 +407,13 @@
                                 <table id="tab4" class="table table-bordered">
                                     <thead class="thead-dark">
                                         <tr>
-                                            <th scope="col">Sep. cabillas ASX</th>
-                                            <th scope="col">sep. cabillas ASY</th>
-                                            <th scope="col">Diseño por corte VX</th>
-                                            <th scope="col">Diseño por corte VY</th>
-                                            <th scope="col">Diseño por corte VC</th>
-                                            <th scope="col">Punzonado VPNZ</th>
-                                            <th scope="col">Punzonado VCONC</th>
+                                            <th scope="col">Sep. cabillas ASX (C/)</th>
+                                            <th scope="col">sep. cabillas ASY (C/)</th>
+                                            <th scope="col">Diseño por corte VX (Kg/cm2)</th>
+                                            <th scope="col">Diseño por corte VY (Kg/cm2)</th>
+                                            <th scope="col">Diseño por corte VC (Kg/cm2)</th>
+                                            <th scope="col">Punzonado VPNZ (Kg/cm2)</th>
+                                            <th scope="col">Punzonado VCONC (Kg/cm2)</th>
                                         </tr>
                                     </thead>
                                     <tbody>

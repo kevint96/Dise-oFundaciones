@@ -122,7 +122,7 @@
 
                         <div class="col-12 col-md-6 col-lg-3 bg-primary">
                             <div class="form-group">
-                                <label for="cargaViva">Carga axial (Viva): (Kn)</label>
+                                <label for="cargaViva">Carga axial (Viva): (Kn/m2)</label>
                                 <input type="number" class="form-control" id="cargaViva" ngModel name="cargaViva"
                                     ngModel #cargaViva="ngModel" required="true"
                                     [(ngModel)]="zapatasService.selectedZapata.cargaViva" value="{{cargaViva}}" (ngModelChange)="inputCambian()"  placeholder="600">
@@ -142,7 +142,7 @@
 
                         <div class="col-12 col-md-6 col-lg-3 bg-primary">
                             <div class="form-group">
-                                <label for="cargaMuerta">Carga axial (Muerta): (Kn)</label>
+                                <label for="cargaMuerta">Carga axial (Muerta): (Kn/m2)</label>
                                 <input type="number" class="form-control" id="cargaMuerta" ngModel name="cargaMuerta"
                                     ngModel #cargaMuerta="ngModel" required="true"
                                     [(ngModel)]="zapatasService.selectedZapata.cargaMuerta" value="{{cargaMuerta}}" (ngModelChange)="inputCambian()"  placeholder="800">

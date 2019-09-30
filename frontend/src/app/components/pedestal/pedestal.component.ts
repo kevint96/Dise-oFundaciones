@@ -746,6 +746,8 @@ export class PedestalComponent implements OnInit {
     this.advertenciaAst();
 
     if (this.condicionAst) {
+      document.getElementById('blanco').style.display = 'none';
+      document.getElementById('pedestal').style.display = 'none';
       // document.getElementById('blanco').style.display = 'none';
       // document.getElementById('pedestal').style.display = 'none';
       // swal("Error en el esfuerzo actuante!", "El esfuerzo actuante Qmax no puede ser mayor a la carga admisible!", "error");
@@ -754,12 +756,18 @@ export class PedestalComponent implements OnInit {
       // this.ctx.clearRect(0, 0, this.canvas.nativeElement.width, this.canvas.nativeElement.height);
     }
 
+    else
+    {
+    swal("Correcto!", "Los datos que ha ingresado se adaptan al diseño!", "success");
+    this.toastr.success("Correcto! , los datos que ha ingresado se adaptan al diseño..");
+    
+    document.getElementById('blanco').style.display = 'block';
+    document.getElementById('pedestal').style.display = 'block';
+
     $('body,html').animate({
       scrollTop: '1000px'
 
     }, 1000);
-
-    document.getElementById('blanco').style.display = 'block';
 
     //console.log("SEPARACION NORMA: " + this.separacionNorma[0]);
     this.animate();
@@ -769,7 +777,7 @@ export class PedestalComponent implements OnInit {
 
 
     $('#div3').animate({ scrollRight: 200 }, 150);
-
+    }
   }
 
   advertenciaAst() {

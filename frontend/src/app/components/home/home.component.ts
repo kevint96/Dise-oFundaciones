@@ -361,6 +361,7 @@ export class HomeComponent implements OnInit {
         var lista: Excel = this.zapatasService.cargas;
 
         // this.base = lista.fx;
+        this.base = lista.base;
         this.fx = lista.fx;
         this.fy = lista.fy;
         this.fz = lista.fz;

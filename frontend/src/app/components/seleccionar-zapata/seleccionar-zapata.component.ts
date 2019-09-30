@@ -57,9 +57,11 @@ export class SeleccionarZapataComponent implements OnInit {
         // document.getElementById('mensaje').style.display = 'block';
         if (this.zapatas.length > 0) {
           document.getElementById('mensaje').innerHTML = "Seleccione el dato inicial de la lista:";
+          document.getElementById('imagenAdvertencia').style.display = 'none';
         }
         else {
           document.getElementById('mensaje').innerHTML = "Actualmente no hay ningun dato inicial creado!";
+          document.getElementById('imagenAdvertencia').style.display = 'block';
         }
       });
   }
