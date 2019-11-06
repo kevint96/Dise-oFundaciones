@@ -17,7 +17,7 @@
     "ejs": "^2.6.2",
     "express": "^4.17.1",
     "mongojs": "^2.6.0",
-    "mongoose": "^5.1.2",
+    "mongoose": "^5.7.5",
     "webpack-dev-server": "^3.8.1",
     "nodemon": "^1.19.1"
   },
